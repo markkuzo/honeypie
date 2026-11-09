@@ -56,27 +56,27 @@
   "amenities": ["Lauko terasa (be stogo)", "Išsinešti"],
 
   "content": {
-    "seoTitle": "{name} – kepyklėlė-kavinė Vievyje prie A1",
-    "seoDescription": "{name} – šeimos kepyklėlė-kavinė Vievyje, prie A1 magistralės tarp Vilniaus ir Kauno: cinamoninės ir kardamoninės bandelės, desertai ir kava. Dirbame {hoursOpen}.",
-    "headline": "Kepyklėlė-kavinė Vievyje",
+    "seoTitle": "{name} – kepyklėlė Vievyje prie A1",
+    "seoDescription": "{name} – šeimos kepyklėlė Vievyje, prie A1 magistralės tarp Vilniaus ir Kauno: cinamoninės ir kardamoninės bandelės, desertai ir kava. Dirbame {hoursOpen}.",
+    "headline": "Kepyklėlė Vievyje",
     "lead": "{name} – bandelės, desertai ir kava prie A1 magistralės, tarp Vilniaus ir Kauno. Kepame patys, kiekvieną darbo dieną.",
-    "description": "Šeimos kepyklėlė-kavinė Vievyje, prie A1 magistralės tarp Vilniaus ir Kauno: cinamoninės ir kardamoninės bandelės, desertai ir kava.",
-    "longDescription": "{name} – šeimos kepyklėlė-kavinė Vievyje, prie A1 magistralės tarp Vilniaus ir Kauno. Kepame patys, kiekvieną darbo dieną: cinamonines ir kardamonines bandeles, cinabonus, varškės bandeles, bandeles su dešrele, pyragus, tartaletes, braunius ir tortus – medaus bei šokoladinį kavos. Verdame kavą. Atidaryta 2026 m. rugpjūtį. Populiariausios bandelės kartais išperkamos anksčiau, todėl jei važiuojate iš toliau, geriau paskambinkite.",
-    "about": "{name} – šeimos kepyklėlė-kavinė Vievyje, atidaryta 2026 m. rugpjūtį. Viską kepame patys, todėl asortimentas kasdien šiek tiek kitoks.",
-    "where": "Vievis – prie A1 magistralės, tarp Vilniaus ir Kauno. Kavinė yra namo kieme, priešais kultūros centrą: į kiemą įeinama iš Trakų gatvės, tarp 10 ir 12 namų.",
+    "description": "Šeimos kepyklėlė Vievyje, prie A1 magistralės tarp Vilniaus ir Kauno: cinamoninės ir kardamoninės bandelės, desertai ir kava.",
+    "longDescription": "{name} – šeimos kepyklėlė Vievyje, prie A1 magistralės tarp Vilniaus ir Kauno. Kepame patys, kiekvieną darbo dieną: cinamonines ir kardamonines bandeles, cinabonus, varškės bandeles, bandeles su dešrele, pyragus, tartaletes, braunius ir tortus – medaus bei šokoladinį kavos. Verdame kavą. Atidaryta 2026 m. rugpjūtį. Populiariausios bandelės kartais išperkamos anksčiau, todėl jei važiuojate iš toliau, geriau paskambinkite.",
+    "about": "{name} – šeimos kepyklėlė Vievyje, atidaryta 2026 m. rugpjūtį. Viską kepame patys, todėl asortimentas kasdien šiek tiek kitoks.",
+    "where": "Vievis – prie A1 magistralės, tarp Vilniaus ir Kauno. Kepyklėlė yra namo kieme, priešais kultūros centrą: į kiemą įeinama iš Trakų gatvės, tarp 10 ir 12 namų.",
     "socialIntro": "Dienos pasiūlą skelbiame",
-    "en": "{name} is a small family bakery-café in Vievis, just off the A1 highway between Vilnius and Kaunas. Cinnamon and cardamom buns, desserts and coffee, all baked by us. Find us at {addressShort}. {hoursEn}"
+    "en": "{name} is a small family bakery in Vievis, just off the A1 highway between Vilnius and Kaunas. Cinnamon and cardamom buns, desserts and coffee, all baked by us. Find us at {addressShort}. {hoursEn}"
   },
 
   "route": { "road": "A1", "start": "Kaunas", "end": "Vilnius", "here": "Vievis", "position": 0.61 },
   "localMap": {
     "file": "vietos-schema.svg",
-    "caption": "Palikite automobilį kultūros centro aikštelėje, pereikite Trakų gatvę ir eikite į kiemą tarp 10 ir 12 namų. Kavinė kieme, apie 25 m nuo gatvės."
+    "caption": "Palikite automobilį kultūros centro aikštelėje, pereikite Trakų gatvę ir eikite į kiemą tarp 10 ir 12 namų. Kepyklėlė kieme, apie 25 m nuo gatvės."
   },
   "directions": [
     { "icon": "car", "title": "Iš Vilniaus (A1)", "text": "Nusukite išvažiavimu link Semeliškių, Paparčių ir Aukštadvario (221 kelias). Pirmoje žiedinėje sankryžoje sukite kairėn, antroje rinkitės 3-ią išvažiavimą, trečioje – 1-ą, į Vilniaus gatvę. Tada dešinėn į Semeliškių gatvę ir po 150 m kairėn į Trakų gatvę." },
     { "icon": "car", "title": "Iš Kauno (A1)", "text": "Nusukite išvažiavimu link Semeliškių, Paparčių ir Aukštadvario (221 kelias). Žiedinėje sankryžoje važiuokite tiesiai į Vilniaus gatvę, tada dešinėn į Semeliškių gatvę ir po 150 m kairėn į Trakų gatvę." },
-    { "icon": "parking", "title": "Trakų gatvėje", "text": "Pravažiavę IKI parduotuvę, po 100 m kairėje rasite Vievio kultūros centro aikštelę (Trakų g. 7). Palikite automobilį ten, pereikite gatvę ir eikite į kiemą tarp 10 ir 12 namų. Kavinė kieme, apie 25 m nuo gatvės." },
+    { "icon": "parking", "title": "Trakų gatvėje", "text": "Pravažiavę IKI parduotuvę, po 100 m kairėje rasite Vievio kultūros centro aikštelę (Trakų g. 7). Palikite automobilį ten, pereikite gatvę ir eikite į kiemą tarp 10 ir 12 namų. Kepyklėlė kieme, apie 25 m nuo gatvės." },
     { "icon": "bus", "title": "Autobusu", "text": "Nuo Vievio autobusų stoties (Kauno g. 26, prie „Maximos“) – 600 m, apie 8 min. pėsčiomis: Ežero gatve iki Trakų gatvės, ten dešinėn. Po 230 m kairėje – įėjimas į kiemą tarp 12 ir 10 namų." },
     { "icon": "train", "title": "Traukiniu", "text": "Nuo Vievio geležinkelio stoties (Stoties g. 26) – apie 1,5 km, 20 min. pėsčiomis." }
   ],
