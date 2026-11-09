@@ -60,6 +60,7 @@ Failas `businesses/<verslas>/business.json`. Naujam klientui nukopijuokite aplan
 | `route` | Kelio schema: `{ "road": "A1", "start": "Kaunas", "end": "Vilnius", "here": "Vievis", "position": 0.61 }` |
 | `directions` | `[{ "icon": "car", "title": "Automobiliu nuo A1", "text": "…" }]` |
 | `menu` | `title`, `items` (`icon`, `name`), `priceNote`, `note` |
+| `orderMenu` | Užsakymų meniu (pvz. tortai): `id`, `title`, `intro`, `price` (`{ "amount": 26, "unit": "kg", "text": "26 € / kg" }`), `groups` (`title`, `items`: `{ "name": "Medaus", "tag": "riboto leidimo" }`), `note`. Svetainėje – atskira skiltis su kaina ir mygtukais „Skambinti“, „Rašyti Facebook“; patenka į schema.org (OfferCatalog) ir llms.txt |
 | `faq` | `[{ "q": "Kada dirbate?", "a": "{hours}" }]`, be atsakymo `"a": null` |
 | `photos` | `[{ "src": "photos/bandeles-1200.webp", "small": "photos/bandeles-600.webp", "w": 1200, "h": 1200, "alt": "…", "caption": "Bandelės", "role": "menu", "wide": true }]`, failai aplanke `photos/`. `role`: `menu` – prie asortimento (pirmoji su `"wide": true` rodoma didelė), `find` – skiltyje „Kaip mus rasti“ (iškaba, įėjimas), be `role` – galerijoje. `small` – dvigubai siauresnė versija telefonams |
 | `brand` | `logo` (`{ "src": "logo.webp", "schemaSrc": "logo.png", "w": 640, "h": 287 }`, failai `public/` aplanke; rodomas viršuje, apačioje ir schema.org duomenyse), be logotipo – `wordmarkHtml` ir `tagline`; `mascot` (`"bee"`), `colors` (`primary`, `accent`, `paper`, `band`, `light`, `ink`) |

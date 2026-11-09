@@ -57,15 +57,15 @@
 
   "content": {
     "seoTitle": "{name} – kepyklėlė Vievyje prie A1",
-    "seoDescription": "{name} – šeimos kepyklėlė Vievyje, prie A1 magistralės tarp Vilniaus ir Kauno: cinamoninės ir kardamoninės bandelės, desertai ir kava. Dirbame {hoursOpen}.",
+    "seoDescription": "{name} – šeimos kepyklėlė Vievyje, prie A1 magistralės tarp Vilniaus ir Kauno: cinamoninės ir kardamoninės bandelės, tortai užsakymui, desertai ir kava. Dirbame {hoursOpen}.",
     "headline": "Kepyklėlė Vievyje",
     "lead": "{name} – bandelės, desertai ir kava prie A1 magistralės, tarp Vilniaus ir Kauno. Kepame patys, kiekvieną darbo dieną.",
-    "description": "Šeimos kepyklėlė Vievyje, prie A1 magistralės tarp Vilniaus ir Kauno: cinamoninės ir kardamoninės bandelės, desertai ir kava.",
-    "longDescription": "{name} – šeimos kepyklėlė Vievyje, prie A1 magistralės tarp Vilniaus ir Kauno. Kepame patys, kiekvieną darbo dieną: cinamonines ir kardamonines bandeles, cinabonus, varškės bandeles, bandeles su dešrele, pyragus, tartaletes, braunius ir tortus – medaus bei šokoladinį kavos. Verdame kavą. Atidaryta 2026 m. rugpjūtį. Populiariausios bandelės kartais išperkamos anksčiau, todėl jei važiuojate iš toliau, geriau paskambinkite.",
+    "description": "Šeimos kepyklėlė Vievyje, prie A1 magistralės tarp Vilniaus ir Kauno: cinamoninės ir kardamoninės bandelės, tortai užsakymui, desertai ir kava.",
+    "longDescription": "{name} – šeimos kepyklėlė Vievyje, prie A1 magistralės tarp Vilniaus ir Kauno. Kepame patys, kiekvieną darbo dieną: cinamonines ir kardamonines bandeles, cinabonus, varškės bandeles, bandeles su dešrele, pyragus, tartaletes, braunius ir tortus – medaus bei šokoladinį kavos. Tortus kepame ir užsakymui (26 € už kg): medaus, citrininį, šokoladinį su apelsino karamele, „Juodą mišką“, vanilinį su braškėmis, šokoladinį kavos; galima individualus užrašas. Verdame kavą. Atidaryta 2026 m. rugpjūtį. Populiariausios bandelės kartais išperkamos anksčiau, todėl jei važiuojate iš toliau, geriau paskambinkite.",
     "about": "{name} – šeimos kepyklėlė Vievyje, atidaryta 2026 m. rugpjūtį. Viską kepame patys, todėl asortimentas kasdien šiek tiek kitoks.",
     "where": "Vievis – prie A1 magistralės, tarp Vilniaus ir Kauno. Kepyklėlė yra namo kieme, priešais kultūros centrą: į kiemą įeinama iš Trakų gatvės, tarp 10 ir 12 namų.",
     "socialIntro": "Dienos pasiūlą skelbiame",
-    "en": "{name} is a small family bakery in Vievis, just off the A1 highway between Vilnius and Kaunas. Cinnamon and cardamom buns, desserts and coffee, all baked by us. Find us at {addressShort}. {hoursEn}"
+    "en": "{name} is a small family bakery in Vievis, just off the A1 highway between Vilnius and Kaunas. Cinnamon and cardamom buns, desserts and coffee, all baked by us. Cakes to order: 26 € per kg. Find us at {addressShort}. {hoursEn}"
   },
 
   "route": { "road": "A1", "start": "Kaunas", "end": "Vilnius", "here": "Vievis", "position": 0.61 },
@@ -95,11 +95,40 @@
     "note": "Populiariausios bandelės kartais išperkamos anksčiau. Jei važiuojate iš toliau, geriau paskambinkite prieš atvykdami."
   },
 
+  "orderMenu": {
+    "id": "tortai",
+    "title": "Tortai užsakymui",
+    "intro": "Tortus ir pyragus kepame pagal užsakymą. Užsakykite telefonu {phone} arba žinute Facebook.",
+    "price": { "amount": 26, "unit": "kg", "text": "26 € / kg" },
+    "groups": [
+      {
+        "title": "Tortai",
+        "items": [
+          { "name": "Medaus" },
+          { "name": "Citrininis / aviečių arba braškių" },
+          { "name": "Šokoladinis / apelsino karamelės" },
+          { "name": "Šokoladinis / vyšnių „Juodas miškas“" },
+          { "name": "Vanilinis / braškių" },
+          { "name": "Šokoladinis / kavos" }
+        ]
+      },
+      {
+        "title": "Kiti",
+        "items": [
+          { "name": "Šokoladinis (brownie) su vyšniomis ir šokoladiniu ganašu" },
+          { "name": "Lotus Biscoff sūrio pyragas", "tag": "riboto leidimo" }
+        ]
+      }
+    ],
+    "note": "Kai kurios skonių variacijos galimos susitarus iš anksto. Puošyba minimali – natūralūs arba valgomi dalykai, galima užsisakyti individualų užrašą ant torto. Prireikus – valgomas paveikslėlis (teminiams ar vaikų gimtadieniams)."
+  },
+
   "faq": [
     { "q": "Kada dirbate?", "a": "{hours}" },
     { "q": "Kur tiksliai esate?", "a": "{address}, namo kieme, priešais Vievio kultūros centrą. Į kiemą įeinama iš Trakų gatvės, tarp 10 ir 12 namų. Nuo A1 išvažiavimo – 2–3 min. automobiliu." },
     { "q": "Kur pastatyti automobilį?", "a": "Vievio kultūros centro aikštelėje (Trakų g. 7), kitoje gatvės pusėje. Iš jos pereikite Trakų gatvę ir eikite į kiemą tarp 10 ir 12 namų." },
     { "q": "Ar galima užsisakyti iš anksto?", "a": "Taip, telefonu {phone} arba žinute Facebook." },
+    { "q": "Ar galima užsisakyti tortą?", "a": "Taip. Tortai užsakymui kainuoja 26 € už kilogramą: medaus, citrininis su avietėmis arba braškėmis, šokoladinis su apelsino karamele, „Juodas miškas“, vanilinis su braškėmis, šokoladinis kavos. Galima individualus užrašas ar valgomas paveikslėlis. Užsakykite telefonu {phone} arba žinute Facebook." },
     { "q": "Ar galima atsiskaityti kortele?", "a": "Taip, galima mokėti kortele ir grynaisiais." },
     { "q": "Ar yra kur prisėsti?", "a": "Prisėsti galima lauko terasoje. Ji be stogo, todėl tik esant geram orui. Kepinius ir kavą visada galima pasiimti išsinešti." }
   ],
