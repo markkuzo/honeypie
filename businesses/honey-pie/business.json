@@ -1,0 +1,150 @@
+{
+  "slug": "honey-pie",
+  "name": "HoneyPie Desertai",
+  "alternateNames": ["Honey Pie"],
+  "types": ["Bakery", "CafeOrCoffeeShop"],
+  "categories": {
+    "google": ["Kepykla (Bakery)", "Kavinė (Cafe)", "Desertų parduotuvė (Dessert shop)"],
+    "apple": ["Bakery", "Cafe"],
+    "osm": ["shop=bakery", "cafe=yes"]
+  },
+  "legal": { "name": "MB „Be taisyklių“", "code": "307651098" },
+  "opened": "2026-08-01",
+  "timezone": "Europe/Vilnius",
+
+  "address": {
+    "street": "Trakų g. 12",
+    "city": "Vievis",
+    "region": "Elektrėnų sav.",
+    "postalCode": "LT-21381",
+    "country": "LT",
+    "landmark": "kieme tarp 10 ir 12 namų, priešais Vievio kultūros centrą"
+  },
+  "geo": { "lat": 54.769526, "lng": 24.814086 },
+  "navTarget": { "lat": 54.769768, "lng": 24.814179 },
+  "phone": "+37064126307",
+  "email": "info@honeypie.lt",
+  "website": "https://www.honeypie.lt/",
+  "googlePlaceId": null,
+  "googleMapsUrl": "https://www.google.com/maps?cid=11085629360287416627",
+  "social": {
+    "facebook": "https://www.facebook.com/profile.php?id=61551040259855",
+    "instagram": "https://www.instagram.com/honeypie.desertai/"
+  },
+
+  "hours": {
+    "mon": [],
+    "tue": [],
+    "wed": [["11:00", "18:00"]],
+    "thu": [["11:00", "18:00"]],
+    "fri": [["11:00", "18:00"]],
+    "sat": [["11:00", "18:00"]],
+    "sun": [["11:00", "18:00"]]
+  },
+  "specialHours": [
+    { "from": "2026-12-24", "to": "2026-12-29", "closed": true },
+    { "from": "2026-12-30", "to": "2026-12-31", "hours": [["11:00", "18:00"]] },
+    { "date": "2027-01-01", "closed": true },
+    { "from": "2027-01-08", "to": "2027-01-16", "closed": true }
+  ],
+
+  "notices": [],
+
+  "priceRange": "€",
+  "cuisine": ["Kepiniai", "Desertai", "Kava"],
+  "payment": ["Cash", "Credit Card"],
+  "amenities": ["Lauko terasa (be stogo)", "Išsinešti"],
+
+  "content": {
+    "seoTitle": "{name} – kepyklėlė-kavinė Vievyje prie A1",
+    "seoDescription": "{name} – šeimos kepyklėlė-kavinė Vievyje, prie A1 magistralės tarp Vilniaus ir Kauno: cinamoninės ir kardamoninės bandelės, desertai ir kava. Dirbame {hoursOpen}.",
+    "headline": "Kepyklėlė-kavinė Vievyje",
+    "lead": "{name} – bandelės, desertai ir kava prie A1 magistralės, tarp Vilniaus ir Kauno. Kepame patys, kiekvieną darbo dieną.",
+    "description": "Šeimos kepyklėlė-kavinė Vievyje, prie A1 magistralės tarp Vilniaus ir Kauno: cinamoninės ir kardamoninės bandelės, desertai ir kava.",
+    "longDescription": "{name} – šeimos kepyklėlė-kavinė Vievyje, prie A1 magistralės tarp Vilniaus ir Kauno. Kepame patys, kiekvieną darbo dieną: cinamonines ir kardamonines bandeles, cinabonus, varškės bandeles, bandeles su dešrele, pyragus, tartaletes, braunius ir tortus – medaus bei šokoladinį kavos. Verdame kavą. Atidaryta 2026 m. rugpjūtį. Populiariausios bandelės kartais išperkamos anksčiau, todėl jei važiuojate iš toliau, geriau paskambinkite.",
+    "about": "{name} – šeimos kepyklėlė-kavinė Vievyje, atidaryta 2026 m. rugpjūtį. Viską kepame patys, todėl asortimentas kasdien šiek tiek kitoks.",
+    "where": "Vievis – prie A1 magistralės, tarp Vilniaus ir Kauno. Kavinė yra namo kieme, priešais kultūros centrą: į kiemą įeinama iš Trakų gatvės, tarp 10 ir 12 namų.",
+    "socialIntro": "Dienos pasiūlą skelbiame",
+    "en": "{name} is a small family bakery-café in Vievis, just off the A1 highway between Vilnius and Kaunas. Cinnamon and cardamom buns, desserts and coffee, all baked by us. Find us at {addressShort}. {hoursEn}"
+  },
+
+  "route": { "road": "A1", "start": "Kaunas", "end": "Vilnius", "here": "Vievis", "position": 0.61 },
+  "localMap": {
+    "file": "vietos-schema.svg",
+    "caption": "Palikite automobilį kultūros centro aikštelėje, pereikite Trakų gatvę ir eikite į kiemą tarp 10 ir 12 namų. Kavinė kieme, apie 25 m nuo gatvės."
+  },
+  "directions": [
+    { "icon": "car", "title": "Iš Vilniaus (A1)", "text": "Nusukite išvažiavimu link Semeliškių, Paparčių ir Aukštadvario (221 kelias). Pirmoje žiedinėje sankryžoje sukite kairėn, antroje rinkitės 3-ią išvažiavimą, trečioje – 1-ą, į Vilniaus gatvę. Tada dešinėn į Semeliškių gatvę ir po 150 m kairėn į Trakų gatvę." },
+    { "icon": "car", "title": "Iš Kauno (A1)", "text": "Nusukite išvažiavimu link Semeliškių, Paparčių ir Aukštadvario (221 kelias). Žiedinėje sankryžoje važiuokite tiesiai į Vilniaus gatvę, tada dešinėn į Semeliškių gatvę ir po 150 m kairėn į Trakų gatvę." },
+    { "icon": "parking", "title": "Trakų gatvėje", "text": "Pravažiavę IKI parduotuvę, po 100 m kairėje rasite Vievio kultūros centro aikštelę (Trakų g. 7). Palikite automobilį ten, pereikite gatvę ir eikite į kiemą tarp 10 ir 12 namų. Kavinė kieme, apie 25 m nuo gatvės." },
+    { "icon": "bus", "title": "Autobusu", "text": "Nuo Vievio autobusų stoties (Kauno g. 26, prie „Maximos“) – 600 m, apie 8 min. pėsčiomis: Ežero gatve iki Trakų gatvės, ten dešinėn. Po 230 m kairėje – įėjimas į kiemą tarp 12 ir 10 namų." },
+    { "icon": "train", "title": "Traukiniu", "text": "Nuo Vievio geležinkelio stoties (Stoties g. 26) – apie 1,5 km, 20 min. pėsčiomis." }
+  ],
+
+  "menu": {
+    "title": "Ką kepame",
+    "items": [
+      { "icon": "spiral", "name": "Cinamoninės ir kardamoninės bandelės" },
+      { "icon": "bun", "name": "Cinabonai ir varškės bandelės" },
+      { "icon": "sausage", "name": "Bandelės su dešrele" },
+      { "icon": "cake", "name": "Tortai: medaus, šokoladinis kavos" },
+      { "icon": "tart", "name": "Pyragai, tartaletės, brauniai" },
+      { "icon": "cup", "name": "Kava ir kiti gėrimai" }
+    ],
+    "priceNote": "Bandelės nuo 1,80 €, kava nuo 1,50 €.",
+    "note": "Populiariausios bandelės kartais išperkamos anksčiau. Jei važiuojate iš toliau, geriau paskambinkite prieš atvykdami."
+  },
+
+  "faq": [
+    { "q": "Kada dirbate?", "a": "{hours}" },
+    { "q": "Kur tiksliai esate?", "a": "{address}, namo kieme, priešais Vievio kultūros centrą. Į kiemą įeinama iš Trakų gatvės, tarp 10 ir 12 namų. Nuo A1 išvažiavimo – 2–3 min. automobiliu." },
+    { "q": "Kur pastatyti automobilį?", "a": "Vievio kultūros centro aikštelėje (Trakų g. 7), kitoje gatvės pusėje. Iš jos pereikite Trakų gatvę ir eikite į kiemą tarp 10 ir 12 namų." },
+    { "q": "Ar galima užsisakyti iš anksto?", "a": "Taip, telefonu {phone} arba žinute Facebook." },
+    { "q": "Ar galima atsiskaityti kortele?", "a": "Taip, galima mokėti kortele ir grynaisiais." },
+    { "q": "Ar yra kur prisėsti?", "a": "Prisėsti galima lauko terasoje. Ji be stogo, todėl tik esant geram orui. Kepinius ir kavą visada galima pasiimti išsinešti." }
+  ],
+
+  "photos": [
+    { "src": "photos/bandeles-1200.webp", "small": "photos/bandeles-600.webp", "w": 1200, "h": 1200, "role": "menu", "wide": true, "alt": "Mėlynių ir varškės bandelė, dvi susuktos bandelės ir cinabonas su glaistu", "caption": "Bandelės" },
+    { "src": "photos/obuoliu-bandeles-800.webp", "small": "photos/obuoliu-bandeles-400.webp", "w": 800, "h": 800, "role": "menu", "alt": "Obuolių bandelės su karamele ir trupiniais", "caption": "Obuolių bandelės" },
+    { "src": "photos/medaus-tortas-800.webp", "small": "photos/medaus-tortas-400.webp", "w": 800, "h": 800, "role": "menu", "alt": "Sluoksniuotas medaus tortas", "caption": "Medaus tortas" },
+    { "src": "photos/sokoladinis-tortas-800.webp", "small": "photos/sokoladinis-tortas-400.webp", "w": 800, "h": 800, "role": "menu", "alt": "Šokoladinis kavos tortas vitrinoje", "caption": "Šokoladinis kavos tortas" },
+    { "src": "photos/kava-800.webp", "small": "photos/kava-400.webp", "w": 800, "h": 800, "role": "menu", "alt": "Kava su pieno piešiniu rankų darbo keramikos puodelyje", "caption": "Kava" },
+    { "src": "photos/iskaba-960.webp", "small": "photos/iskaba-480.webp", "w": 960, "h": 1200, "role": "find", "alt": "HoneyPie Desertai iškaba su rodykle, priekyje mėlynių bandelė rankoje", "caption": "Ieškokite šios iškabos." }
+  ],
+
+  "brand": {
+    "wordmarkHtml": "H<svg viewBox=\"0 0 100 115\"><polygon points=\"50,6 94,31 94,84 50,109 6,84 6,31\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"15\" stroke-linejoin=\"round\"/></svg>NEYPIE",
+    "tagline": "DESERTAI",
+    "logo": { "src": "logo.webp", "schemaSrc": "logo.png", "w": 640, "h": 287 },
+    "mascot": "bee",
+    "colors": {
+      "primary": "#2F4544",
+      "accent": "#A64E33",
+      "accentLift": "#C9714F",
+      "paper": "#F6EFE3",
+      "band": "#EADFCB",
+      "light": "#FBF6EC",
+      "ink": "#1F2B2A"
+    }
+  },
+
+  "unconfirmed": [],
+
+  "channels": {
+    "website": "nėra",
+    "google": "yra",
+    "apple": "tikrinti",
+    "bing": "tikrinti",
+    "here": "nėra",
+    "tomtom": "tikrinti",
+    "osm": "nėra",
+    "waze": "tikrinti",
+    "katalogai": "nėra",
+    "tripadvisor": "nėra",
+    "facebook": "yra",
+    "instagram": "yra"
+  },
+
+  "indexnowKey": "459c06246de8d429cfb872bf9e256aad"
+}

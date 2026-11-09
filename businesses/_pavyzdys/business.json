@@ -1,0 +1,45 @@
+{
+  "slug": "_pavyzdys",
+  "name": "Pavyzdinė kirpykla",
+  "types": ["HairSalon"],
+  "categories": {
+    "google": ["Kirpykla (Hair salon)"],
+    "apple": ["Hair Salon"],
+    "osm": ["shop=hairdresser"]
+  },
+  "address": { "street": "Pavyzdžio g. 1", "city": "Pavyzdiškės", "region": "Pavyzdžio r. sav.", "postalCode": "LT-00000", "country": "LT" },
+  "geo": { "lat": 54.9, "lng": 24.0 },
+  "phone": "+37060000000",
+  "email": "info@example.com",
+  "website": "https://www.example.com/",
+  "social": { "facebook": "https://www.facebook.com/example" },
+  "hours": {
+    "mon": [["09:00", "18:00"]],
+    "tue": [["09:00", "18:00"]],
+    "wed": [["09:00", "18:00"]],
+    "thu": [["09:00", "18:00"]],
+    "fri": [["09:00", "18:00"]],
+    "sat": [["09:00", "13:00"], ["14:00", "16:00"]],
+    "sun": []
+  },
+  "specialHours": [{ "date": "2026-12-24", "hours": [["09:00", "14:00"]], "note": "Kūčios" }, { "date": "2026-12-25", "closed": true }],
+  "priceRange": "€€",
+  "content": {
+    "headline": "Kirpykla Pavyzdiškėse",
+    "lead": "Testinis verslas, kuriuo tikrinama, ar generatorius veikia ne tik Honey Pie.",
+    "description": "Testinė kirpykla generatoriaus patikrai.",
+    "longDescription": "Testinė kirpykla generatoriaus patikrai.",
+    "about": "Šis verslas neegzistuoja, jis skirtas tik testams.",
+    "where": "Pavyzdiškės – netoli kelio.",
+    "en": "A fictional test business. {hoursEn}"
+  },
+  "directions": [
+    { "icon": "bus", "title": "Autobusu", "text": "Stotelė „Pavyzdys“ už 2 min. pėsčiomis." },
+    { "icon": "parking", "title": "Automobiliu", "text": "Nemokama aikštelė prie įėjimo." }
+  ],
+  "menu": { "title": "Paslaugos", "items": [{ "icon": "scissors", "name": "Kirpimas" }, { "icon": "star", "name": "Barzdos tvarkymas" }], "priceNote": "Kirpimas nuo 15 €." },
+  "faq": [{ "q": "Kada dirbate?", "a": "{hours}" }, { "q": "Ar reikia registruotis?", "a": "Taip, telefonu." }],
+  "brand": { "colors": { "primary": "#23324A", "accent": "#9C3D54", "paper": "#F5F2EE", "band": "#E6E0D8", "light": "#FAF8F5", "ink": "#1C2230" } },
+  "channels": { "google": "yra" },
+  "indexnowKey": "pavyzdys-raktas-123"
+}

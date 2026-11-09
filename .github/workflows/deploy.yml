@@ -1,0 +1,60 @@
+# Paskelbia vieno verslo svetainę GitHub Pages ir praneša Bing per IndexNow.
+# Repo nustatymuose: Settings → Pages → Source: GitHub Actions.
+name: Paskelbti svetainę
+
+on:
+  push:
+    branches: [main]
+    paths: ['businesses/**', 'lib/**', 'radaras.mjs', '.github/workflows/deploy.yml']
+  workflow_dispatch:
+  # Kas rytą perkuriama, kad pasibaigę pranešimai ir šventinis darbo laikas dingtų ir iš HTML, ir iš duomenų paieškai.
+  schedule:
+    - cron: '17 2 * * *'
+
+env:
+  VERSLAS: honey-pie
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Patikrinti duomenis
+        run: node radaras.mjs check "$VERSLAS"
+      - name: Sugeneruoti svetainę
+        run: node radaras.mjs build "$VERSLAS"
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist/${{ env.VERSLAS }}
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Pranešti Bing (IndexNow)
+        if: github.event_name != 'schedule'
+        continue-on-error: true
+        run: node radaras.mjs indexnow "$VERSLAS"

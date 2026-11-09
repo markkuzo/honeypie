@@ -1,0 +1,14 @@
+{
+  "name": "radaras",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Mažo verslo matomumo įrankis: vienas verslo pasas, svetainė ir kanalų paketas",
+  "type": "module",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "check": "node radaras.mjs check",
+    "build": "node radaras.mjs build",
+    "kit": "node radaras.mjs kit",
+    "all": "node radaras.mjs all"
+  }
+}
