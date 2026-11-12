@@ -4,7 +4,7 @@
   "alternateNames": ["Honey Pie"],
   "types": ["Bakery", "CafeOrCoffeeShop"],
   "categories": {
-    "google": ["Kepykla (Bakery)", "Kavinė (Cafe)", "Desertų parduotuvė (Dessert shop)"],
+    "google": ["Kepykla (Bakery)", "Tortų parduotuvė (Cake shop)", "Kavinė (Cafe)", "Desertų parduotuvė (Dessert shop)"],
     "apple": ["Bakery", "Cafe"],
     "osm": ["shop=bakery", "cafe=yes"]
   },
@@ -56,7 +56,7 @@
   "amenities": ["Lauko terasa (be stogo)", "Išsinešti"],
 
   "content": {
-    "seoTitle": "{name} – kepyklėlė Vievyje prie A1",
+    "seoTitle": "{name} – kepyklėlė Vievyje, tortai užsakymui",
     "seoDescription": "{name} – šeimos kepyklėlė Vievyje, prie A1 magistralės tarp Vilniaus ir Kauno: cinamoninės ir kardamoninės bandelės, tortai užsakymui, desertai ir kava. Dirbame {hoursOpen}.",
     "headline": "Kepyklėlė Vievyje",
     "lead": "{name} – bandelės, desertai ir kava prie A1 magistralės, tarp Vilniaus ir Kauno. Kepame patys, kiekvieną darbo dieną.",
@@ -97,7 +97,7 @@
 
   "orderMenu": {
     "id": "tortai",
-    "title": "Tortai užsakymui",
+    "title": "Tortai užsakymui Vievyje",
     "intro": "Tortus ir pyragus kepame pagal užsakymą. Užsakykite bent prieš pusantros savaitės (terminą galima aptarti individualiai) telefonu {phone} arba žinute Facebook.",
     "price": { "amount": 26, "unit": "kg", "text": "26 € / kg" },
     "groups": [
