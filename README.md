@@ -8,6 +8,10 @@ Mažo verslo matomumo įrankis. Visi verslo duomenys laikomi viename faile (vers
 
 Trūkstami duomenys (`null`) svetainėje tiesiog nerodomi, todėl ją galima skelbti dar prieš surenkant viską.
 
+## Kas dar sugeneruojama
+
+Šriftas laikomas pačioje svetainėje (`fonts/`), todėl nėra jokių išorinių užklausų. Svetainė turi griežtą turinio saugumo politiką (CSP): leidžiamas tik jos pačios skriptas. Papildomi failai: `404.html`, `manifest.webmanifest`, `kontaktas.vcf` (kontakto kortelė), `.well-known/security.txt`, `robots.txt` su įvardytais AI robotais, `sitemap.xml` su nuotraukomis, `llms.txt` su nuorodomis. `orderMenu` su `"form": true` ir `"leadDays"` prideda užklausos formą: žmogus pasirenka, gauna paruoštą žinutę ir išsiunčia ją pats.
+
 ## Greitas startas
 
 Reikia Node.js 20 ar naujesnio. Papildomų paketų diegti nereikia.

@@ -9,6 +9,7 @@ import { renderSite } from './lib/site.mjs';
 import { renderKit } from './lib/kit.mjs';
 import { robotsTxt, sitemapXml, llmsTxt, faviconSvg } from './lib/seo.mjs';
 import { pingIndexNow } from './lib/indexnow.mjs';
+import { notFoundPage, webManifest, vCard, securityTxt } from './lib/extras.mjs';
 import { specialRanges, addDays } from './lib/special.mjs';
 
 const HELP = `Radaras – mažo verslo matomumo įrankis
@@ -65,6 +66,15 @@ function writeSite(b, { draft }) {
   const pub = path.join(businessDir(b.slug), 'public');
   if (fs.existsSync(pub)) fs.cpSync(pub, out, { recursive: true });
   if (!b.publicFiles.includes('favicon.svg')) write('favicon.svg', faviconSvg(b));
+  fs.cpSync(path.join(ROOT, 'lib', 'assets', 'fonts'), path.join(out, 'fonts'), { recursive: true });
+  write('404.html', notFoundPage(b));
+  if (b.publicFiles.includes('icon-512.png')) write('manifest.webmanifest', webManifest(b));
+  if (b.phone) write('kontaktas.vcf', vCard(b));
+  const sec = !draft && securityTxt(b, date);
+  if (sec) {
+    fs.mkdirSync(path.join(out, '.well-known'), { recursive: true });
+    write('.well-known/security.txt', sec);
+  }
   const photos = path.join(businessDir(b.slug), 'photos');
   if (fs.existsSync(photos)) fs.cpSync(photos, path.join(out, 'photos'), { recursive: true });
   return path.relative(ROOT, out);

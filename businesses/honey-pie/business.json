@@ -100,22 +100,24 @@
     "title": "Tortai užsakymui Vievyje",
     "intro": "Tortus ir pyragus kepame pagal užsakymą. Užsakykite bent prieš pusantros savaitės (terminą galima aptarti individualiai) telefonu {phone} arba žinute Facebook.",
     "price": { "amount": 26, "unit": "kg", "text": "26 € / kg" },
+    "form": true,
+    "leadDays": 10,
     "groups": [
       {
         "title": "Tortai",
         "items": [
-          { "name": "Medaus" },
-          { "name": "Citrininis / aviečių arba braškių" },
-          { "name": "Šokoladinis / apelsino karamelės" },
-          { "name": "Šokoladinis / vyšnių „Juodas miškas“" },
-          { "name": "Vanilinis / braškių" },
-          { "name": "Šokoladinis / kavos" }
+          { "name": "Medaus", "full": "Medaus tortas" },
+          { "name": "Citrininis / aviečių arba braškių", "full": "Citrininis tortas su avietėmis arba braškėmis" },
+          { "name": "Šokoladinis / apelsino karamelės", "full": "Šokoladinis tortas su apelsino karamele" },
+          { "name": "Šokoladinis / vyšnių „Juodas miškas“", "full": "Šokoladinis vyšnių tortas „Juodas miškas“" },
+          { "name": "Vanilinis / braškių", "full": "Vanilinis tortas su braškėmis" },
+          { "name": "Šokoladinis / kavos", "full": "Šokoladinis kavos tortas" }
         ]
       },
       {
         "title": "Kiti",
         "items": [
-          { "name": "Šokoladinis (brownie) su vyšniomis ir šokoladiniu ganašu" },
+          { "name": "Šokoladinis (brownie) su vyšniomis ir šokoladiniu ganašu", "full": "Šokoladinis pyragas (brownie) su vyšniomis ir šokoladiniu ganašu" },
           { "name": "Lotus Biscoff sūrio pyragas", "tag": "riboto leidimo" }
         ]
       }
@@ -145,7 +147,7 @@
   "brand": {
     "wordmarkHtml": "H<svg viewBox=\"0 0 100 115\"><polygon points=\"50,6 94,31 94,84 50,109 6,84 6,31\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"15\" stroke-linejoin=\"round\"/></svg>NEYPIE",
     "tagline": "DESERTAI",
-    "logo": { "src": "logo.webp", "schemaSrc": "logo.png", "w": 640, "h": 287 },
+    "logo": { "src": "logo.webp", "small": "logo-320.webp", "schemaSrc": "logo.png", "w": 640, "h": 287 },
     "mascot": "bee",
     "colors": {
       "primary": "#2F4544",
