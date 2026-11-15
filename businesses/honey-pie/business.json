@@ -100,8 +100,6 @@
     "title": "Tortai užsakymui Vievyje",
     "intro": "Tortus ir pyragus kepame pagal užsakymą. Užsakykite bent prieš pusantros savaitės (terminą galima aptarti individualiai) telefonu {phone} arba žinute Facebook.",
     "price": { "amount": 26, "unit": "kg", "text": "26 € / kg" },
-    "form": true,
-    "leadDays": 10,
     "groups": [
       {
         "title": "Tortai",
